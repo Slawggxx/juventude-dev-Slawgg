@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<form action ="#" method="post">
+
+    <h1 align=center>Seu Formulario</h1>
+    <hr>
+    <br>
+
+
+<input type="text" name="nome" placeholder="Seu nome">
+
+<br>
+
+<input type="email" name="email" placeholder="seu@gmail.com">
+
+<br>
+
+<input type="password" name="senha" placeholder="Sua senha">
+
+<br>
+
+<input type="number" name="idade" placeholder="Sua Idade">
+
+<input type="date" name="nascimento">
+
+<br>
+<br>
+
+<input type="radio" name="genero" value="f"> Feminino
+
+<input type="radio" name="genero" value="m"> Masculino
+
+<input type="radio" name="genero" value="Outro"> Outro
+
+<br>
+<br>
+
+<input type="file" name="Foto_Perfil">
+
+<br>
+<br>
+
+<input type="checkbox" name="aceite" value="sim"> Aceito os termos
+
+<br>
+<br>
+
+<select name="assunto">
+    <option value="duvida">Dúvida</option>
+    
+    <option value="elogio">Elogio</option>
+
+    <option value="reclamação">Reclamação</option>
+</select>
+
+<br>
+
+<textarea name="mensagem" rows="5" placeholder="Escreva Sua Mensagem"></textarea>
+
+<button type="submit">Enviar</button>
+
+<br>
+<br>
+
+<label for="campo-nome">Nome Completo</label>
+
+<input type="text" id="campo-nome" name="nome">
+
+<br>
+<br>
+
+<label for="campo-aceite">Aceito os termos de uso</label>
+
+<input type="checkbox" id="campo-aceite" name="aceite">
+
+</form>
+    
+
+</html>
