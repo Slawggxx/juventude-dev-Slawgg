@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<form action ="#" method="post">
+<form id="form-formulario">
 
     <h1 align=center>Seu Formulario</h1>
+
     <hr>
     <br>
-
 
 <input type="text" name="nome" placeholder="Seu nome">
 
 <br>
 
 <input type="email" name="email" placeholder="seu@gmail.com">
+
+<br>
+
+<label for="cep">CEP</label>
+<input type="text"
+id="cep"
+name="cep"
+    pattern="[0-9]{5}-[0-9]{3}"
+    title="Formato esperado:
+    00000-000">
 
 <br>
 
@@ -74,7 +84,26 @@
 
 <input type="checkbox" id="campo-aceite" name="aceite">
 
+
+
 </form>
-    
+
+<script>
+    const formulario = document.querySelector("#form-formulario");
+
+    formulario.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const confirmou = confirm("Deseja realmente enviar?")
+
+        if (confirmou){
+            alert("Mensagem enviada com sucesso!");
+            formulario.reset();
+        }
+        
+
+    });
+</script>
+
 
 </html>
