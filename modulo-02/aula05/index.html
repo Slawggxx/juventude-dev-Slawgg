@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfolio</title>
+</head>
+<body>
+
+        <nav>
+            <ul>
+                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#Sobre">Sobre</a></li>
+                <li><a href="#Links">Links</a></li>
+            </ul>   
+        </nav>
+
+
+
+    <h1 align="center"> Portfolio - Arthur</h1>
+
+    <hr>
+
+    <header id="Inicio">
+        <h1 align="center">Inicio: </h1>
+
+        <h2>Um pouco do que você VERÁ:</h2>
+
+        <p>Óla, me chamo Arthur, um estudante do CETEP de tecnico em informática.</p>
+        <p>Diante todos os universos eu apareci aqui, para fazer o que muitos não fazem. É zoeira, sou da pazzz.</p>
+    </header>
+
+<hr>    
+<br>
+
+<div id="Sobre">
+
+    <h1 align="center">Sobre:</h1>
+    <h2>Minhas Hablidades Duvidosas</h2>
+
+    <ul>
+        <li>Basico de HTML</li>
+         <li>Ingês desavançado</li>
+        <li>Sou bem sociavel</li>
+
+        </ul>
+
+<hr>
+<br>
+    <h2>Minha Monalyza</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR98h6Dlaq7zUz_4RSUmi-A2rY1XpE10N9hql9I7Fr3rw&s=10" alt="Imagem da Hello Kitty">
+
+<hr>
+<br>
+    <h2>Meu Github:</h2>
+    <a href="https://github.com/Slawggxx/juventude-dev-Slawgg" target="_blank">Meu Github</a>
+
+
+<hr>
+<br>
+    <h2>Minha Tabela</h2>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+            <th>Colegio</th>
+            <th>Hobby</th>
+        </tr>
+        <tbody>
+            <tr>
+            <td>Arthur</td><td>16</td><td>CDA</td><td>CETEP</td><td>Nenhum</td>
+            </tr>
+        </tbody>
+    </table>
+
+<hr>
+<br>
+
+<section>
+    <h1>Formulario:</h1>
+    <form id="pinto" action="#" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" name="nome" placeholder="Digite seu nome gay" required minlength="4" maxlength="100"> <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Digite seu email hetero" required> <br>
+
+        <label for="mensagem">Assunto:</label>
+        <textarea name="assunto" rows="2" placeholder="Mensagem"></textarea> <br>
+
+        <button type="submit">Enviar</button>
+
+
+
+
+
+    </form>
+</section>
+<hr>
+
+
+</body>
+</html>
+
+<script>
+    const formulario = document.querySelector("#pinto");
+    
+    formulario.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const confirmou = confirm("Deseja realmente enviar?")
+
+        if (confirmou){
+            alert("Mensagem enviada com sucesso!");
+            formulario.reset();
+        }
+        
+    });
+</script>
