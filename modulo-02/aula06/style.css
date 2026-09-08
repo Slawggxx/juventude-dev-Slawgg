@@ -1,7 +1,25 @@
 body{
-    background-color: #f4f7fb;
+    background-color: #dedede;
     font-family: Montserrat;
+    
+    
+}
 
+.divMain{
+        
+        border: 40px;
+        border-radius: 2px;
+        padding: 60px 50px 50px 50px;
+        margin: 2px;
+        
+    }
+
+.apresentacao{
+    color: black;
+    background-color: #dedede;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    text-align: center;
 }
 
 .cartao{
