@@ -1,0 +1,28 @@
+*{
+    margin: auto;
+    
+}
+
+body{
+    background-image: 
+}
+
+.h1Programacao{
+    align-items: center;
+}
+
+#Nav{
+
+    
+}
+
+#Programacao{
+    display: flex;
+
+    ul{
+        border: 2px solid ;
+        border-radius: 14px;
+        padding: 5px;
+    }
+
+}
