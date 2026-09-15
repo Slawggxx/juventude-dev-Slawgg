@@ -1,82 +1,81 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-
-    <title>Noite de Code</title>
+    <title>DevNight</title>
 </head>
 <body>
+    <header id="Inicio">
+        <div class="divTitulo">
+            <h1>DevNight</h1>
+            <p>Aqui é o encontro dos Maiores</p>
+        </div>
 
-    <section id="Nav">
-            <nav>
+        <nav>
+            <ul>
                 <li><a href="#Inicio">Inicio</a></li>
-                <li><a href="#Programacao">Atividades</a></li>
                 <li><a href="#Sobre">Sobre</a></li>
-            </nav>
+                <li><a href="#Programacao">Programação</a></li>
+                <li><a href="#Local">Local</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br>
+    <hr>
+
+    
+    <main>
+        <!--Seção 1-->
+        <section id="Sobre">
+            <div class="divSobre">
+                <h2 id="Sobreh2">Sobre</h2>
+                <br>
+                <p>reúne devs de todos os níveis para uma noite de código, café e colaboração. Em duplas, os participantes escolhem um problema fictício e constroem uma solução web do zero, do HTML puro e CSS afiado, competindo contra o relógio e trocando ideias com quem também vive entre chaves e ponto-e-vírgula. Não é sobre vencer sozinho: é sobre sair de lá tendo aprendido algo novo e conhecido gente que também gosta disso.</p>
+            </div>
+
+            <img id="Imagem1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd8xohOlaPGcVBSZgpL8JrVEAgZ1-KV6oEdRWn73QDuQ&s=10" alt="tela de programação">
         </section>
 
-    <div id="Inicio">
-        <header>
-            <h1>Noite de Codes Sob Estrelas</h1>
-            <p>Um encontro informal para devs iniciantes e pessoas interessadas em tecnologia trocarem ideias, compartilharem experiências e mostrarem seus projetos. A proposta é criar um espaço descontraído para aprender juntos, tirar dúvidas, fazer networking e colocar a mão no código. Tudo isso com sessões de programação colaborativa, apresentações de projetos e muita troca de conhecimento, em um ambiente ao ar livre com telão para acompanhar as atividades.</p>
-        </header>
-    </div>
-<br><br><br>
-<hr><br>
-    <main>
-        <!--SECÃO 1-->
-        
+        <hr>
 
-        <!--SECÃO 2-->
-        <section>
-            <!--Atividades-->
-            <h1 class="h1Programacao">Atividades:</h1>
-            <br>
-            <div id="Programacao">
-                
-                <ul>
-                    <h3>Live coding coletivo:</h3>
-                    <hr>
-                    <ol>
-                        <p>Assistir uma live</p>
-                        <p>Aprender com a Live</p>
-                        <p>Desenvolver através da live</p>
-                    </ol>
-                </ul>
-
-                <ul>
-                    <h3>Mini-palestra:</h3>
-                    <hr>
-                    <ol>
-                        <p>Entender O que estamos mostrando</p>
-                        <p>Analisar Erros</p>
-                        <p>Saber o que fazer</p>
-                    </ol>
-                </ul>
-
-                <ul>
-                    <h3>Networking com pizza:</h3>
-                    <hr>
-                    <ol>
-                        <p>Tecnicas utilizando Gráfico</p>
-                        <p>Skills úteis</p>
-                        <p>Finalização</p>
-                    </ol>
-                </ul>
+        <!--Seção 2-->
+        <section id="Programacao">
+            <div>
+                <h2>Programação</h2>
+                <p>As 3 programações:</p>
             </div>
+            <br>
+            <article class="card">
+                <h3>Abertura</h3>
+                <br>
+                <p>apresentação do evento hackathon.</p>
+            </article>
+
+            <article class="card">
+                <h3>Sprint de código</h3> 
+                <br>
+                <p>bloco principal: as duplas escolhem o problema fictício e constroem a página do zero (HTML + CSS).</p>
+            </article>
+
+            <article class="card">
+                <h3>Demo & entrega</h3>
+                <br>
+                <p>cada um apresenta o resultado em até 6 minutos, seguido de feedback.</p>
+            </article>
         </section>
     </main>
-<br><br>
-    <div id="Sobre">
-        <footer>
-            <h3>Evento:</h3>
-            <p>Local: Cruz Das Almas</p>
-            <p>Data: 10/09/2026</p>
-            <p>Hora: 16:30</p>
-        </footer>
-    </div>
 
+    <hr>
+    <br>
+
+    <footer id="Local">
+        <h3>Local:</h3>
+        <p><time datetime="2026-11-20T19:00">Data:17/09/2026</time></p>
+        <p>Hora: 16:00 PM</p>
+      <address>Local: Cruz Das Almas</address>
+    </footer>
 </body>
 </html>

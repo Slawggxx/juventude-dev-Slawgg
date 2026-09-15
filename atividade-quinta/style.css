@@ -1,28 +1,70 @@
-*{
-    margin: auto;
+* {
+    box-sizing: border-box;
+
+    h1 {
+        justify-content: center;
+        padding: 6px 40px 0px;
+    }
+}
+
+body {
     
+    padding: 2rem;
 }
 
-body{
-    background-image: 
-}
-
-.h1Programacao{
-    align-items: center;
-}
-
-#Nav{
-
-    
-}
-
-#Programacao{
+#Inicio {
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 20px;
     display: flex;
+    justify-content: space-between;
+    list-style: none;
 
-    ul{
-        border: 2px solid ;
-        border-radius: 14px;
-        padding: 5px;
+    
+}
+
+
+
+#Sobre {
+    border: 1px solid;
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+
+    p {
+        padding: 20px;
     }
 
+   
+}
+
+#Imagem1 {
+    width: 40%;
+    height: auto;
+}
+
+#Sobreh2 {
+    flex: 1;
+    padding: 6px 0px 0px 300px;
+    width: 4%;
+}
+
+#Programacao {
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+}
+
+#Local {
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid;
+    border-radius: 15px;
+    box-sizing: border-box;
+     
 }
